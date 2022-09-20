@@ -176,3 +176,8 @@
 .myform{
     margin: -61px auto;
 }
+.myinput:hover{
+        background: white;
+        opacity: .7;
+}
+
