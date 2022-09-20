@@ -4,9 +4,9 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-// mongoose.connect('mongodb://localhost/contactbike',{useNewUrlParser: true})
+mongoose.connect('mongodb://localhost/contactbike',{useNewUrlParser: true})
  
-// const port = 80;
+const port = 80;
 
 const contactSchema = new mongoose.Schema({
     name: String,
@@ -25,15 +25,15 @@ const staticPath = (path.join(__dirname, "contact"))
 
 app.use (express.static(staticPath));
 // app.use('/static', express.static('static'));
-// app.use(express.urlencoded())
+app.use(express.urlencoded())
 
 // app.get("/", (req, res)=>{
 //     res.status(200).send("This is static file")
 // })
 
-// app.get("/contact",(_req, res)=>{
-//     res.status(200).send("contact.html")
-// })
+app.get("contact",(_req, res)=>{
+    res.status(200).send("contact.html")
+})
 
 app.post('contact', (req, res) =>{
     var myData = new contact(req.body)
@@ -45,6 +45,6 @@ app.post('contact', (req, res) =>{
 })
 
 
-// app.listen(port,()=>{
-//     console.log(`The server is running on port ${port}`);
-// })
+app.listen(port,()=>{
+    console.log(`The server is running on port ${port}`);
+})
