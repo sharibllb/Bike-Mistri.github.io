@@ -176,6 +176,8 @@ a:hover{
     margin-top: 50px;
     background: url('https://www.bikefixo.com/img/front/why-bikefixo-header.jpg') no-repeat center center/cover;
     text-align: center;
+    background: url('https://bikeindia.in/wp-content/uploads/2020/06/2021-latest-Triumph-bonneville-T120-Black-launch-price-bike-india-1.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
 }
 
 .middle h1{
@@ -223,9 +225,11 @@ a:hover{
 .wework{
     height: 371px;
     display: inline-block;
-    /* background-color: antiquewhite; */
+    background: url('https://wallpaperaccess.com/full/5253673.jpg') no-repeat center center/cover;
     margin-top: 25px;
     text-align: center;
+    width: 100%;
+    background-attachment: fixed;
 }
 .wework h1{
     margin: 45px 0px;
@@ -275,6 +279,7 @@ a:hover{
     background: url('https://www.bikefixo.com/img/front/brands-service.jpg') no-repeat center center/cover;
     margin-top: 50px;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .cycle i{
