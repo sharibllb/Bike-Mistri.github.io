@@ -228,7 +228,7 @@ a:hover{
     background: url('https://wallpaperaccess.com/full/5253673.jpg') no-repeat center center/cover;
     margin-top: 45px;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     background-attachment: fixed;
 }
 .wework h1{
@@ -249,9 +249,11 @@ a:hover{
 }
 .we .how h2{
     margin: 10px;
+    color: aliceblue;
 }
 .we .how p{
     padding: 0px 35px;
+    color: aliceblue;
 }
 .btn1{
     padding: 0px 16px;
@@ -263,7 +265,7 @@ a:hover{
     border-radius: 7px;
 }
 .btn1:hover{
-    background: none;
+    background: whitesmoke;
     color: purple;
     box-shadow: 0px 0px 10px blue,
                 0px 0px 20px blue,
