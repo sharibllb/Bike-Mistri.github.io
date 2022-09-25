@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth;
+}
 .mech .mec{
     margin: 15px -35px;
 }
